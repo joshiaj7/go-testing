@@ -5,14 +5,14 @@ import (
 )
 
 type TestAddInput struct {
-	Data	[]int
-	Result	int	
+	Data   []int
+	Result int
 }
 
 func TestAdd(t *testing.T) {
 	inputs := []TestAddInput{
-		{[]int{1,2,3,4}, 10},
-		{[]int{-1,-2,-3}, -6},
+		{[]int{1, 2, 3, 4}, 10},
+		{[]int{-1, -2, -3}, -6},
 		{[]int{}, 0},
 	}
 
@@ -29,4 +29,3 @@ func TestAdd(t *testing.T) {
 		}
 	}
 }
-

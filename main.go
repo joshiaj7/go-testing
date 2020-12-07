@@ -11,7 +11,7 @@ import (
 	To see test coverage : go test -cover
 */
 
-func main(){
+func main() {
 	fmt.Println("Go testing")
 
 	empty := hello("")
@@ -20,6 +20,6 @@ func main(){
 	john := hello("John")
 	fmt.Println(john)
 
-	addResult, _ := add(1,2,3)
+	addResult, _ := add(1, 2, 3)
 	fmt.Println(addResult)
 }

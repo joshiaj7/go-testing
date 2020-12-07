@@ -12,10 +12,10 @@ func add(numbers ...int) (int, error) {
 		errorMessage := "There is no number to add"
 		return sum, errors.New(errorMessage)
 	}
-		
-	for _, v := range(numbers) {
+
+	for _, v := range numbers {
 		sum += v
-	}	
+	}
 
 	return sum, nil
 }
